@@ -1,6 +1,7 @@
 /* styles.css */
 
 body {
+    background-color: rgba(19, 47, 104, 0.458);
     display: flex;
     justify-content: center;
     align-items: center;
