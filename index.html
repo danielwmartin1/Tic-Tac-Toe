@@ -15,6 +15,11 @@
     <p id="status" class="status">Player X's turn</p>
     <button id="reset-button" class="reset-button">Restart Game</button>
   </div>
+  <footer>
+    <p>Daniel Martin © <span id="year"></span></p>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
   <script src="script.js"></script>
 </body>
 </html>
