@@ -7,20 +7,20 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-}
-
-.game-container {
+  }
+  
+  .game-container {
     text-align: center;
-}
-
-.board {
+  }
+  
+  .board {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-gap: 5px;
     margin: 20px auto;
-}
-
-.cell {
+  }
+  
+  .cell {
     width: 100px;
     height: 100px;
     display: flex;
@@ -30,15 +30,16 @@ body {
     background-color: #f0f0f0;
     border: 1px solid #333;
     cursor: pointer;
-}
-
-.status {
+  }
+  
+  .status {
     margin: 10px;
     font-size: 1.2rem;
-}
-
-.reset-button {
+  }
+  
+  .reset-button {
     padding: 10px 20px;
     font-size: 1rem;
     cursor: pointer;
-}
+  }
+  
