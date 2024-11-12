@@ -70,6 +70,7 @@ function handleCellClick(e) {
     statusText.textContent = "It's a tie!";
     statusText.style.color = 'blue';
     statusText.style.fontWeight = 'bold';
+    statusText.style.backgroundColor = 'yellow';
     gameActive = false;
     flashText(statusText);
     return;
