@@ -48,6 +48,22 @@ body {
     color: #fff;
     border: none;
     border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  .reset-button:hover {
+    color: rgb(0, 255, 255);
+    background-color: #1e2d6b;
+  }
+
+  .reset-button:active {
+    background-color: #16224e;
+    transform: scale(0.95);
+  }
+
+  .reset-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(12, 46, 235, 0.5);
   }
   
   footer {
