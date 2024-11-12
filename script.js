@@ -3,6 +3,11 @@
 const board = document.getElementById('game-board');
 const statusText = document.getElementById('status');
 const resetButton = document.getElementById('reset-button');
+
+if (!board || !statusText || !resetButton) {
+  console.error('Required elements not found in the DOM');
+  throw new Error('Required elements not found in the DOM');
+}
 let currentPlayer = 'X';
 let boardState = Array(9).fill(null);
 let gameActive = true;

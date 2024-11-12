@@ -9,20 +9,20 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-  }
-  
-  .game-container {
+}
+
+.game-container {
     text-align: center;
-  }
-  
-  .board {
+}
+
+.board {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-gap: 5px;
     margin: 3rem auto;
-  }
-  
-  .cell {
+}
+
+.cell {
     width: 100px;
     height: 100px;
     display: flex;
@@ -32,15 +32,15 @@ body {
     background-color: #f0f0f0;
     border: 1px solid #333;
     cursor: pointer;
-  }
-  
-  .status {
+}
+
+.status {
     margin: 10px;
     font-size: 1.2rem;
     font-weight: bold;
-  }
-  
-  .reset-button {
+}
+
+.reset-button {
     padding: 10px 20px;
     font-size: 1rem;
     cursor: pointer;
@@ -49,38 +49,37 @@ body {
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s, transform 0.3s;
-  }
+}
 
-  .reset-button:hover {
+.reset-button:hover {
     color: rgb(0, 255, 255);
     background-color: #1e2d6b;
-  }
+}
 
-  .reset-button:active {
+.reset-button:active {
     background-color: #16224e;
     transform: scale(0.95);
-  }
+}
 
-  .reset-button:focus {
+.reset-button:focus {
     outline: none;
     box-shadow: 0 0 0 2px rgba(12, 46, 235, 0.5);
-  }
-  
-  footer {
+}
+
+footer {
     text-align: center;
     width: 100vw;
     background-color: #2e5ba467;
     position: fixed;
     bottom: 0;
     border-top: solid black 3px;
+}
 
-  }
-
-  header {
+header {
     text-align: center;
     width: 100vw;
     background-color: #2e5ba467;
     position: fixed;
     top: 0;
     border-bottom: solid black 3px;
-  }
+}
