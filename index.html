@@ -9,8 +9,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="game-container">
+  <header>
     <h1>Tic Tac Toe</h1>
+  </header>
+  <div class="game-container">
     <div id="game-board" class="board"></div>
     <p id="status" class="status">Player X's turn</p>
     <button id="reset-button" class="reset-button">Restart Game</button>
@@ -20,6 +22,7 @@
     <script>
       document.getElementById('year').textContent = new Date().getFullYear();
     </script>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>

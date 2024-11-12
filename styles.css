@@ -1,8 +1,9 @@
 /* styles.css */
 
 body {
-    background-color: rgba(19, 47, 104, 0.458);
+    background-color: rgba(19, 53, 104, 0.458);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -18,7 +19,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-gap: 5px;
-    margin: 20px auto;
+    margin: 3rem auto;
   }
   
   .cell {
@@ -44,3 +45,21 @@ body {
     cursor: pointer;
   }
   
+  footer {
+    text-align: center;
+    width: 100vw;
+    background-color: #2e5ba467;
+    position: fixed;
+    bottom: 0;
+    border-top: solid black 3px;
+
+  }
+
+  header {
+    text-align: center;
+    width: 100vw;
+    background-color: #2e5ba467;
+    position: fixed;
+    top: 0;
+    border-bottom: solid black 3px;
+  }
